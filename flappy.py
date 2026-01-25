@@ -1,4 +1,4 @@
-
+pip install pygame
 
 import pygame
 import random
@@ -114,4 +114,5 @@ if bird_y < 0 or bird_y > HEIGHT:
     running = not game_over()
 
 if not running:
+
     pygame.quit()   
